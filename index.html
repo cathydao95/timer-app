@@ -6,9 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Timer Application</title>
     <link rel="stylesheet" href="/style.css" />
+    <script defer src="/timer.js"></script>
     <script defer src="/script.js"></script>
   </head>
   <body>
+    <svg height="400" width="400">
+      <circle
+        r="190"
+        cx="200"
+        cy="200"
+        fill="transparent"
+        stroke="blue"
+        stroke-width="15"
+        transform="rotate(-90 200 200)"
+      ></circle>
+    </svg>
     <input id="duration" type="text" value="30" />
     <button id="btnStart" type="button">Start</button>
     <button id="btnPause" type="button">Pause</button>
